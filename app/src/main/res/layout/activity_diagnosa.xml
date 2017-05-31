@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ddd0yuki.dr_puyuh.DiagnosaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="18dp"
+                android:text="MATA"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="18dp">
+                <CheckBox
+                    android:id="@+id/cekM1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mata Merah"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekM2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mata Bengkak"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekM3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mata Berlendir"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekM4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mata Berdarah"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekM5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mata Tertutup"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginLeft="18dp"
+                android:text="BERAK"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="18dp">
+                <CheckBox
+                    android:id="@+id/cekB1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berak Merah"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekB2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berak Hijau"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekB3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berak Putih"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekB4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diare"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginLeft="18dp"
+            android:text="FISIK"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="18dp">
+                <CheckBox
+                    android:id="@+id/cekF1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bulu kusam"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekF2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lumpuh"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekF3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sayap lemah menggantung"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekF4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kepala Teleng"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:layout_marginLeft="18dp"
+                android:text="LAIN LAIN"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="18dp">
+                <CheckBox
+                    android:id="@+id/cekL1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lesu"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekL2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mendengkur"
+                    android:textSize="18sp"/>
+                <CheckBox
+                    android:id="@+id/cekL3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sulit Bernapas"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/cekL4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nafsu Makan Berkurang"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/cekL5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Menggigil Kedinginan"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnEnter"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="1dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="ENTER"/>
+        <Button
+            android:id="@+id/btnReset"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="1dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RESET"/>
+    </LinearLayout>
+
+</RelativeLayout>
